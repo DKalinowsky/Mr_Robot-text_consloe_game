@@ -16,6 +16,7 @@ namespace Mr.Robot.Final.Version
         public void PlayBackGroundMusic(string directory)
         {
             myPlayer.SoundLocation = directory;
+            
             myPlayer.Play();
         }
         public void StopMusic()

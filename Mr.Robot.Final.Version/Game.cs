@@ -11,9 +11,9 @@ namespace Mr.Robot.Final.Version
 
         public static void Start()
         {
-            var music = new Sound();
+            /*var music = new Sound();
             string path = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path);
+            music.PlayBackGroundMusic(path);*/
             Title = "Mr. Robot";
             CursorVisible = false;
             RunMainMenu();
@@ -141,19 +141,19 @@ namespace Mr.Robot.Final.Version
         }
         private static void Break1()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Clear();
             ForegroundColor = ConsoleColor.White;
             BackgroundColor = ConsoleColor.Black;
-            string path = System.IO.Directory.GetCurrentDirectory() + "\\Doors.wav";
-            music.PlayBackGroundMusic(path);
+            /*string path = System.IO.Directory.GetCurrentDirectory() + "\\Doors.wav";*/
+            /*music.PlayBackGroundMusic(path);*/
             Animations.FramesAnimation(Images.lockpicking, 6, 100);
             Animations.TextAnimation("Udało Ci się otworzyć drzwi.\n", 50);
             Thread.Sleep(1000);
-            music.StopMusic();
+            /*music.StopMusic();*/
             Clear();
-            string path1 = System.IO.Directory.GetCurrentDirectory() + "\\DoorOpen.wav";
-            music.PlayBackGroundMusic(path1);
+            /*string path1 = System.IO.Directory.GetCurrentDirectory() + "\\DoorOpen.wav";*/
+            /*music.PlayBackGroundMusic(path1);*/
             Animations.TextAnimation("Wchodzisz do budki strażnika.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Przeszukujesz biurko...\n", 50);
@@ -175,17 +175,17 @@ namespace Mr.Robot.Final.Version
         }
         private static void Break2()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Clear();
-            string path1 = System.IO.Directory.GetCurrentDirectory() + "\\PadLock.wav";
-            music.PlayBackGroundMusic(path1);
+            /*string path1 = System.IO.Directory.GetCurrentDirectory() + "\\PadLock.wav";*/
+           /* music.PlayBackGroundMusic(path1);*/
             Animations.FramesAnimation(Images.locks, 1, 100);
             Animations.TextAnimation("Udało Ci się otworzyć drzwi.\n", 50);
             Thread.Sleep(1000);
-            music.StopMusic();
+            /*music.StopMusic();*/
             Clear();
-            string path2 = System.IO.Directory.GetCurrentDirectory() + "\\MetalDoor.wav";
-            music.PlayBackGroundMusic(path2);
+            /*string path2 = System.IO.Directory.GetCurrentDirectory() + "\\MetalDoor.wav";*/
+            /*music.PlayBackGroundMusic(path2);*/
             Animations.TextAnimation("Wchodzisz na teren elektrowni.\n", 50);
             Thread.Sleep(1000);
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontynuować.");
@@ -195,10 +195,10 @@ namespace Mr.Robot.Final.Version
         }
         private static void Break3()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Clear();
-            string path1 = System.IO.Directory.GetCurrentDirectory() + "\\PadLock.wav";
-            music.PlayBackGroundMusic(path1);
+            /*string path1 = System.IO.Directory.GetCurrentDirectory() + "\\PadLock.wav";*/
+            /*music.PlayBackGroundMusic(path1);*/
             Animations.FramesAnimation(Images.lockpicking, 6, 100);
             Animations.TextAnimation("Udało Ci się otworzyć drzwi.\n", 50);
             Thread.Sleep(1000);
@@ -258,7 +258,7 @@ namespace Mr.Robot.Final.Version
         public static void Room()
         {
             Clear();
-            var music = new Sound();
+            /*var music = new Sound();*/
             ForegroundColor = ConsoleColor.White;
             BackgroundColor = ConsoleColor.Black;
             string prompt = "Stoisz na środku pokoju.\n" + "Widzisz drzwi, do pokoju w którym się znajdujesz, biurko i leżące zwłoki.\n" + "Co robisz ?\n";

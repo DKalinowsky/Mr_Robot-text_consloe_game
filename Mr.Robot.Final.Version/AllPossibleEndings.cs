@@ -10,7 +10,7 @@ namespace Mr.Robot.Final.Version
     {
         public static void Parking()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Animations.TextAnimation("Podjeżdżasz do parkingu, jednak od razu zauważa Cię ochroniarz.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Podchodzi do Ciebie i prosi o pokazanie dokumentów umożliwiający wjazd na teren elektrowni.\n", 50);
@@ -18,7 +18,7 @@ namespace Mr.Robot.Final.Version
             Animations.TextAnimation("Po chwili jednak ochroniarz Cię rozpoznaje wyciąga broń i mierzy z niej do Ciebie.\n", 50);
             Thread.Sleep(500);
             string path = System.IO.Directory.GetCurrentDirectory() + "\\GunShot.wav";
-            music.PlayBackGroundMusic(path);
+            /*music.PlayBackGroundMusic(path);*/
             Animations.TextAnimation("Słychać wystrzał...\n", 50);
             Thread.Sleep(100);
             Animations.TextAnimation("Ochroniarz zastrzelił Cię w samochodzie na parkingu.\n", 50);
@@ -26,7 +26,7 @@ namespace Mr.Robot.Final.Version
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontunować.");
             Console.ReadKey();
             string path1 = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path1);
+            /*music.PlayBackGroundMusic(path1);*/
             Console.Clear();
             Animations.TextAnimation("Dokonałeś złego wyboru, miałeś pozostać niezauważony.\n", 50);
             Thread.Sleep(500);
@@ -53,10 +53,10 @@ namespace Mr.Robot.Final.Version
         }
         public static void Suicide()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Archivments.A4();
             string path = System.IO.Directory.GetCurrentDirectory() + "\\GunShot.wav";
-            music.PlayBackGroundMusic(path);
+            /*music.PlayBackGroundMusic(path);*/
             Animations.TextAnimation("Pistolet wystrzelił.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Padasz bez życia na podłogę.\n", 50);
@@ -69,7 +69,7 @@ namespace Mr.Robot.Final.Version
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontynować.");
             Console.ReadKey();
             string path1 = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path1);
+            /*music.PlayBackGroundMusic(path1);*/
             Console.Clear();
             Animations.TextAnimation(">>>> Koniec Gry <<<<\n", 50);
             Thread.Sleep(500);
@@ -87,9 +87,9 @@ namespace Mr.Robot.Final.Version
         }
         public static void ReactorExplosion()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             string path1 = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path1);
+            /*music.PlayBackGroundMusic(path1);*/
             Archivments.A5();
             Archivments.A7();
             Console.Clear();
@@ -106,11 +106,11 @@ namespace Mr.Robot.Final.Version
             Animations.TextAnimation("Na szczęście znajdujesz kluczyki.\n", 50);
             Thread.Sleep(500);
             string path = System.IO.Directory.GetCurrentDirectory() + "\\CarDoors.wav";
-            music.PlayBackGroundMusic(path);
+            /*music.PlayBackGroundMusic(path);*/
             Animations.TextAnimation("Wsiadasz do samochodu.\n", 100);
             Thread.Sleep(1800);
             string path2 = System.IO.Directory.GetCurrentDirectory() + "\\CarEngine.wav";
-            music.PlayBackGroundMusic(path2);
+            /*music.PlayBackGroundMusic(path2);*/
             Animations.TextAnimation("Odpalasz silnik.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Odjeżdżasz.\n", 50);
@@ -123,7 +123,7 @@ namespace Mr.Robot.Final.Version
             Thread.Sleep(1000);
             Animations.TextAnimation("W lusterku widisz wielki wybuch.\n", 50);
             string path3 = System.IO.Directory.GetCurrentDirectory() + "\\BOOM.wav";
-            music.PlayBackGroundMusic(path3);
+            /*music.PlayBackGroundMusic(path3);*/
             Thread.Sleep(500);
             Animations.TextAnimation("......\n", 50);
             Console.WriteLine("......");
@@ -133,7 +133,7 @@ namespace Mr.Robot.Final.Version
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontynować.");
             Console.ReadKey();
             string path4 = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path4);
+            /*music.PlayBackGroundMusic(path4);*/
             Console.Clear();
             Animations.TextAnimation(">>>> Koniec Gry <<<<\n", 50);
             Thread.Sleep(500);
@@ -151,17 +151,17 @@ namespace Mr.Robot.Final.Version
         }
         public static void Stay()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Archivments.A9();
             string path1 = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path1);
+            /*music.PlayBackGroundMusic(path1);*/
             Animations.TextAnimation("*Komputer wyłącza się.*\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Zauważasz, że syreny ucichły.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Nagle jednak czujesz lekkie trzęsienie ziemi, czujesz uderzającą falę gorąca.\n", 50);
             string path = System.IO.Directory.GetCurrentDirectory() + "\\Fall.wav";
-            music.PlayBackGroundMusic(path);
+            /*music.PlayBackGroundMusic(path);*/
             Thread.Sleep(1000);
             Animations.TextAnimation("Pokój w którym się znajdujesz zawala się na Ciebie.\n", 100);
             Thread.Sleep(5500);
@@ -172,7 +172,7 @@ namespace Mr.Robot.Final.Version
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontynuować.");
             Console.ReadKey();
             string path2 = System.IO.Directory.GetCurrentDirectory() + "\\MainTheme.wav";
-            music.PlayBackGroundMusic(path2);
+            /*music.PlayBackGroundMusic(path2);*/
             Console.Clear();
             Thread.Sleep(1000);
             Animations.TextAnimation("Otwierasz oczy.\n", 50);

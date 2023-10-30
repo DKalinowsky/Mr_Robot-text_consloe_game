@@ -9,7 +9,7 @@ namespace Mr.Robot.Final.Version
     {
         public static void GameIntro()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Images.IntroLogo();
             Clear();
             Animations.TextAnimation("Witaj w grze stworzonej na podstawie serialu Mr.Robot.\n", 50);
@@ -32,14 +32,14 @@ namespace Mr.Robot.Final.Version
             Thread.Sleep(1000);
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontunować.");
             Console.ReadKey();
-            music.StopMusic();
+            /*music.StopMusic();*/
             Console.Clear();
-            string path = System.IO.Directory.GetCurrentDirectory() + "\\CarDoors.wav";
-            music.PlayBackGroundMusic(path);
+            /*string path = System.IO.Directory.GetCurrentDirectory() + "\\CarDoors.wav";
+            music.PlayBackGroundMusic(path);*/
             Animations.TextAnimation("Wsiadasz do samochódu...\n", 100);
             Thread.Sleep(1900);
-            string path1 = System.IO.Directory.GetCurrentDirectory() + "\\CarEngine.wav";
-            music.PlayBackGroundMusic(path1);
+            /*string path1 = System.IO.Directory.GetCurrentDirectory() + "\\CarEngine.wav";
+            music.PlayBackGroundMusic(path1);*/
             Animations.TextAnimation("Odpalasz silnik i jedziesz do elektrowni.\n", 50);
             Thread.Sleep(1000);
             Animations.TextAnimation("Jedziesz...\n", 50);
@@ -48,8 +48,8 @@ namespace Mr.Robot.Final.Version
             Thread.Sleep(1000);
             Console.WriteLine("Naciśnij dowolny klawisz, aby kontunować.");
             Console.ReadKey();
-            string path2 = System.IO.Directory.GetCurrentDirectory() + "\\SaveTW.wav";
-            music.PlayBackGroundMusic(path2);
+            /*string path2 = System.IO.Directory.GetCurrentDirectory() + "\\SaveTW.wav";
+            music.PlayBackGroundMusic(path2);*/
             Console.Clear();
             Animations.TextAnimation("Widzisz już elektrownię.\n", 50);
             Thread.Sleep(1000);
@@ -60,7 +60,7 @@ namespace Mr.Robot.Final.Version
         }
         public static void SafePlace()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             Animations.TextAnimation("Zaparkowałeś niedaleko ogrodzenia otaczającego elektrownię.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Ogrodzenie to jest zdecydowanie zbyt wysokie i zakończone drutem kolczastym.\n", 50);
@@ -89,9 +89,9 @@ namespace Mr.Robot.Final.Version
         }
         public static void PowerPlant()
         {
-            var music = new Sound();
+            /*var music = new Sound();
             string path = System.IO.Directory.GetCurrentDirectory() + "\\Music1.wav";
-            music.PlayBackGroundMusic(path);
+            music.PlayBackGroundMusic(path);*/
             Archivments.A10();
             Animations.TextAnimation("Ostrożnie, żeby nie dać się zauważyć idziesz przez teren elektrowni, zbliżając się do wejścia.\n", 50);
             Thread.Sleep(500);
@@ -433,22 +433,22 @@ namespace Mr.Robot.Final.Version
         }
         public static void Exit()
         {
-            var music = new Sound();
+            /*var music = new Sound();
             string path1 = System.IO.Directory.GetCurrentDirectory() + "\\MetalDoor2.wav";
-            music.PlayBackGroundMusic(path1);
+            music.PlayBackGroundMusic(path1);*/
             Animations.TextAnimation("Jak tylko przeszedłeś próg drzwi, te zatrzasnęły się bez możliwości powrotu...\n", 80);
             Thread.Sleep(500);
             Animations.TextAnimation("Stoisz w ciemnym korytarzu, który co jakiś czas rozświetlany jest przez czerwone lampy, które informują o alarmie.\n", 50);
             Thread.Sleep(500);
-            string path = System.IO.Directory.GetCurrentDirectory() + "\\Alarm.wav";
-            music.PlayBackGroundMusic(path);
+            /*string path = System.IO.Directory.GetCurrentDirectory() + "\\Alarm.wav";
+            music.PlayBackGroundMusic(path);*/
             Animations.TextAnimation("Cały czas słyszysz syreny, które również informują o alarmie, lecz w pokoju, w którym byłeś zamknięty nie było ich słychać.\n", 50);
             Thread.Sleep(500);
             Animations.TextAnimation("Nie mając innego wyboru idziesz przez korytarz.\n", 50);
             Thread.Sleep(500);
-            music.StopMusic();
+            /*music.StopMusic();
             string path3 = System.IO.Directory.GetCurrentDirectory() + "\\401.wav";
-            music.PlayBackGroundMusic(path3);
+            music.PlayBackGroundMusic(path3);*/
             Animations.TextAnimation("Idziesz...\n", 50);
             Thread.Sleep(1500);
             Animations.TextAnimation("Idziesz...\n", 50);

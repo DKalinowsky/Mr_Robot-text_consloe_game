@@ -195,11 +195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dkali\\source\\repos\\Mr.Robot.Final.Version\\Mr.Robot.Final.Version.csproj",
+      "projectUniqueName": "C:\\Users\\dkali\\Documents\\GitHub\\Mr_Robot-text_consloe_game\\Mr.Robot.Final.Version\\Mr.Robot.Final.Version.csproj",
       "projectName": "Mr.Robot.Final.Version",
-      "projectPath": "C:\\Users\\dkali\\source\\repos\\Mr.Robot.Final.Version\\Mr.Robot.Final.Version.csproj",
+      "projectPath": "C:\\Users\\dkali\\Documents\\GitHub\\Mr_Robot-text_consloe_game\\Mr.Robot.Final.Version\\Mr.Robot.Final.Version.csproj",
       "packagesPath": "C:\\Users\\dkali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dkali\\source\\repos\\Mr.Robot.Final.Version\\obj\\",
+      "outputPath": "C:\\Users\\dkali\\Documents\\GitHub\\Mr_Robot-text_consloe_game\\Mr.Robot.Final.Version\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VisualStudio\\Shared\\NuGetPackages"

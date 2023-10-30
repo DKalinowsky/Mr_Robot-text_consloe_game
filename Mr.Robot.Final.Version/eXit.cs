@@ -10,9 +10,9 @@ namespace Mr.Robot.Final.Version
     {
         public static void eXitGame()
         {
-            var music = new Sound();
+            /*var music = new Sound();*/
             string path1 = System.IO.Directory.GetCurrentDirectory() + "\\eXit.wav";
-            music.PlayBackGroundMusic(path1);
+            /*music.PlayBackGroundMusic(path1);*/
             ForegroundColor = ConsoleColor.White;
             BackgroundColor = ConsoleColor.Black;
             string prompt = "You're trapped in a dungeon with your friend.\n" + "You see a barrel.\n" + "What do you do ?\n";
